@@ -11,36 +11,14 @@ This was written to allow easier writing of bots or chat logs. Make sure to fami
 
 ### Breaking Changes
 
-The discord API is constantly changing and the wrapper API is as well. There will be no effort to keep backwards compatibility in versions before `v1.0.0`.
-
-I recommend that you follow the discussion in the [unofficial Discord API discord channel][ch] and update your installation periodically. I will attempt to make note of breaking changes in the API channel so make sure to subscribe to library news by typing `?sub news` in the channel.
-
-[ch]: https://discord.gg/0SBTUU1wZTUzBx2q
+This is basically Raptz' discord.py, the original one, but placed on life support, because I am too lazy to update my bot to use the rewrite.
 
 ## Installing
 
 To install the library without full voice support, you can just run the following command:
 
 ```
-python3 -m pip install -U discord.py
-```
-
-Otherwise to get voice support you should run the following command:
-
-```
-python3 -m pip install -U discord.py[voice]
-```
-
-To install the development version, do the following:
-
-```
-python3 -m pip install -U https://github.com/Rapptz/discord.py/archive/master.zip#egg=discord.py[voice]
-```
-
-or the more long winded from cloned source:
-
-```
-$ git clone https://github.com/Rapptz/discord.py
+$ git clone https://github.com/IOIIIO/discord.py
 $ cd discord.py
 $ python3 -m pip install -U .[voice]
 ```
